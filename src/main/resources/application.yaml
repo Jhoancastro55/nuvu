@@ -1,0 +1,13 @@
+server:
+  port: 8093
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dbpruebanuvu?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  application:
+    name: pruebanuvu-core
